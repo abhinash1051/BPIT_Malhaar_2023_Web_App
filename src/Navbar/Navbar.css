@@ -1,7 +1,9 @@
 
 
-.nav-content{
-  
+.navigation{
+  margin-top: 3rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
 }
   
   .container-div{
@@ -20,8 +22,6 @@
     color: #fff;
     font-family: 'Urban Jungle DEMO';
     src: url('https://www.fontsaddict.com/fontface/urban-jungle-demo.ttf');
-    margin-left: 1rem; 
-    margin-top: 1rem;
   }
   
   .container-div b a{
@@ -42,6 +42,14 @@
    top: 0;
    z-index: 100;
    padding: 0;
+  }
+  .logo {
+    text-decoration: none;
+
+  }
+  .logo{
+
+    height: 30px;
   }
   
   .items {
@@ -83,13 +91,11 @@
    z-index: 102;
    align-items: center;
    justify-content: center;
-  margin-top: 5rem;
   }
   
   .nav-content ul{
     display: flex;
     gap: 5rem;
-    margin-top: 1rem;
   }
   .nav-content li a {
     list-style: none;
