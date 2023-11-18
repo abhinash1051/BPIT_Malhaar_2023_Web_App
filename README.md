@@ -45,26 +45,47 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+###Making a pr and forking the repo
+1. Fork the Repository
+Start by visiting the GitHub page of the repository you wish to contribute to.
+In the top-right corner of the page, click the “Fork” button. This will create a copy of the repository under your GitHub account.
+2. Clone Your Forked Repository
+On your forked repository’s main page, click the green “Code” button. Copy the URL provided.
+Open your terminal or command prompt and navigate to the directory where you want to clone the repository. Enter:
+git clone [URL you copied]
+This will create a local copy of your forked repository on your machine.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Navigate to the Repository’s Directory
+Enter:
 
-### Analyzing the Bundle Size
+cd [repository-name]
+4. Set Upstream Remote
+To keep track of the original repository (often called the “upstream”), enter:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+git remote add upstream [original repository's URL]
+5. Create a New Branch
+Always make changes in a new branch instead of directly on main or master. To create and switch to a new branch, enter:
 
-### Making a Progressive Web App
+git checkout -b [branch-name]
+Choose a descriptive branch name related to the changes you’re planning to make.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+6. Make Your Changes
+Edit, add, or remove files as needed using your preferred text editor or IDE.
 
-### Advanced Configuration
+7. Stage and Commit Changes
+Stage your changes with:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+git add .
+Commit your changes with a descriptive message:
 
-### Deployment
+git commit -m "Brief description of changes made"
+8. Push Changes to Your Fork
+Push your changes to your forked repository on GitHub:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+git push origin [branch-name]
+9. Open a Pull Request (PR)
+Go back to your forked repository on GitHub.
+Click the “New pull request” button (often GitHub will also present a quick link to create a PR from your recently pushed branch).
+Ensure the base repository is the original repository you want to contribute to, and the head repository is your fork. Also, make sure the branch shown for your fork is the one you just pushed.
+Fill in the PR title and description, detailing your changes and the reason for them.
+Click “Create pull request”.
