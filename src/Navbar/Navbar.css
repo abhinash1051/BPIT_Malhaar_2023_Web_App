@@ -1,183 +1,197 @@
+.navigation {
+  width: 100%;
+  overflow: hidden;
+}
 
+.container-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
 
-.navigation{
-  margin-top: 3rem;
-  margin-right: 3rem;
-  margin-left: 3rem;
-  width: 80%;
- overflow: hidden;
+.container-div.mobile-i {
+  margin-top: 0;
+}
+
+.hamburgerMenu {
+  width: 4rem;
+  height: 2.5rem;
+  position: absolute;
+ right: 0;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-radius: none;
+  font-size: 2rem;
+  top: 2;
+  z-index: 100;
+  padding: 0;
+  margin-top: 5px;
+}
+.logo {
+  text-decoration: none;
+}
+.logo {
+  margin-top: 1rem;
+  height: 2rem;
+}
+
+.items {
+  position: absolute;
+  width: 60vw;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.16);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  -webkit-backdrop-filter: blur(45px);
+  border-radius: 40px 0px 0px 40px;
+  border: 1px solid rgba(255, 255, 2555, 0.16);
+  backdrop-filter: blur(45px);
+  /* opacity: 50%; */
+  right: 0rem;
+  z-index: 99;
+  border-bottom-left-radius: 4rem;
+  transition: 0.3s ease-in;
+  overflow: hidden;
+}
+.close {
+  margin-right: 1.5rem;
+  padding: 0.2rem;
+}
+.items ul {
+  z-index: 1000 !important;
+}
+.items ul li {
+  list-style-type: none;
+}
+.items ul li a {
+  font-family: sans-serif;
+  display: flex;
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  z-index: 102;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-content ul {
+  display: flex;
+  gap: 5rem;
+}
+.nav-content li a {
+  list-style: none;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn {
+  display: flex;
+  width: 100px;
+  height: 25px;
+  padding: 22px 30px 22px 28px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #008BB8;
+  margin-top: 0.5rem;
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  border-color: transparent;
+  margin-top: -2px;
+  transition: 0.3s ease;
+}
+.btn:hover{
+  background-color: #03607e;
+}
+
+#ham ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5rem 0px 0px 0px;
+  gap: 3rem;
+
+}
+/* #ham ul li a{
+  justify-content: end;
+} */
+
+/* 
+@media screen and (min-width: 400px) and (max-width: 1076px) {
+  
+  
+} */
+@media screen and (min-width: 950px) {
+  .hamburgerMenu {
+    display: none;
+  }
+  .items {
+    display: none;
+  }
+  .navigation {
+    margin-top: 1rem;
+    width: 100%;
+  }
+
  
 }
-  
-  .container-div{
-    width: 97%;
-    
-    display: flex;
-    justify-content: space-between;
-  
-    overflow-y: hidden;
-  }
-  
-  .container-div.mobile-i{
-    margin-top: 0;
-  }
+
+
+
+@media screen and (max-width: 950px) {
  
-  
-  
-  .hamburgerMenu {
-   width: 4rem;
-   height: 2.5rem;
-   position: absolute;
-   right: -5rem;
-   color:white;
-   background-color: transparent;
-   border: none;
-   border-radius: none;
-   font-size: 2rem;
-   top: 2;
-   z-index: 100;
-   padding: 0;
+  .nav-content ul {
+    display: none;
   }
-  .logo {
-    text-decoration: none;
+  .btn-sm {
+    display: none;
+  }
 
-  }
-  .logo{
-margin-top: 1rem;
-    height: 2rem;
-  }
-  
   .items {
-    position: absolute;
-    width: 60vw;
-    height: 100%;
-    background-color: rgba(255, 255 , 255 , 0.16);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    -webkit-backdrop-filter: blur(45px);
-    border-radius: 40px 0px 0px 40px;
-    border: 1px solid rgba(255, 255, 2555, 0.16);
-    backdrop-filter: blur(45px);
-    /* opacity: 50%; */
-    right: -7rem;
-    z-index: 99;
-    border-bottom-left-radius: 4rem;
-    transition: 0.3s ease-in;
-   overflow: hidden;
-  }
-  .close{
-  margin-right: 1.5rem;
-  padding: .2rem;
-  }
-  .items ul{
-    z-index: 1000 !important;
-  }
-  .items ul li{
-    list-style-type: none;
-   
-    
-  }
-  .items ul li a{
-    font-family: sans-serif;
-    display: flex;
-    position: relative;
-    color: white;
-    text-decoration: none;
-    font-size: 1.5rem;
-   z-index: 102;
-   align-items: center;
-   justify-content: center;
-  }
-  
-  .nav-content ul{
-    display: flex;
-    gap: 5rem;
-  }
-  .nav-content li a {
-    list-style: none;
-    color: #fff;
-    cursor: pointer;
-    text-decoration: none;
-  }
-  
-  .btn{
-    display: flex;
-    width: 175px;
-    height: 30px;
-    padding: 22px 30px 22px 28px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    border-radius: 30px;
-    background: var(--Purple-500, #9C27B0);
-    margin-top: 0.5rem;
-    color: var(--White, #FFF);
-    text-align: center;
-    font-family: 'Poppins';
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 200;
-    line-height: normal;
-    border-color: transparent;
-  }
-  @media screen and (min-width: 950px) {
-    .hamburgerMenu{
-      display: none;
-    }
-    .items{
-     display: none;
-    }
-    .navigation{
-      margin-top: 1rem;
-      width: 100%;
-    }
-
-  }
-  
-  @media screen and (max-width: 950px) {
-    .nav-content ul{
-      display: none;
-    }
-    .btn-sm{
-      display: none;
-    }
-    
-    .items{
     width: 0;
-    } 
-    
-    .items.expanded{
-    width: 25vw;
-    
-    }
-    
-  
   }
-  @media screen and (max-width: 425px) {
-    .nav-content ul{
-      display: none;
+
+  .items.expanded {
+    width: 32vw;
+  }
+  .btn-primary {
+    margin-top: 35px;
+      border-radius: 0;
+    margin-left: 4.4rem;
     }
-    .btn-sm{
-      display: none;
-    }
-     /* .hamburgerMenu{
+}
+@media screen and (max-width: 430px) {
+  .nav-content ul {
+    display: none;
+  }
+  .btn-sm {
+    display: none;
+  }
+  /* .hamburgerMenu{
       right:-15rem;
      } */
-    .items{
+  .items {
     width: 0;
     /* right: -18rem; */
-    } 
-    .btn-primary{
-      margin-top: 20rem;
-      border-radius: 0;
-    }
-    .items.expanded{
-    width: 55vw;
-    }
-    
-  
   }
-
-
+  .btn-primary {
+  margin-top: 35px;
+    border-radius: 0;
+  margin-left: 3.5rem;
+  }
+  .items.expanded {
+    width: 55vw;
+  }
+}
 
 /* Navbar.css
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
