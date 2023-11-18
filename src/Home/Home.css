@@ -55,7 +55,8 @@ body{
   @media screen and (max-width: 438px) {
  .home{
   width:fit-content;
-  margin-left:-12rem;
+  margin-top: 3rem;
+  margin-left:-9rem;
   
  }
     .centerlogo img{
