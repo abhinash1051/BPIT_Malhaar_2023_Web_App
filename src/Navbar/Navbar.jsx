@@ -37,6 +37,9 @@ const Navbar = () => {
             Event
           </Link></li>
           </ul>
+          <button type="button" class="btn btn-primary">
+          Register now
+        </button>
         </div>
         <div className="nav-content">
           <ul>
@@ -52,11 +55,14 @@ const Navbar = () => {
             <li>
               <Link to="/about">ABOUT</Link>
             </li>
-          </ul>
-        </div>
-        <button type="button" class="btn btn-primary btn-sm">
+            <li>
+            <button type="button" class="btn btn-primary btn-sm">
           Register now
         </button>
+            </li>
+          </ul>
+        </div>
+        
       </div>
     </nav>
   );
