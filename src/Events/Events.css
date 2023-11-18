@@ -69,27 +69,38 @@
 }
 
 
-
+/* @media only screen and (min-width: 768px) {
+    .events-list {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    } 
+    .container-event{
+        width: 100%;
+        margin-right: -2rem;
+    }
+    
+} */
 @media only screen and (max-width: 768px) {
     .events-list {
-        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    }
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    } 
+    
 }
 
 @media only screen and (max-width: 480px) {
     .events-list {
-        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        padding: 0 3.2rem;
+       grid-template-columns: repeat(1, 1fr);
+       width: 100vw;
     }
-}
-
-@media only screen and (max-width: 400px) {
-    .events-list {
-        grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    .card-event{
+        width: 100% ;
+        padding-top: 0px;
     }
-}
-
-@media only screen and (max-width: 360px) {
-    .events-list {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    .card-event img{
+        height: 100%;
     }
 }

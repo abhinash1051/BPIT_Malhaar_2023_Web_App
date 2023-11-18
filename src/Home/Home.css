@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
     background-image: url("../assests/Background.png");
-    background-size: auto;
+    background-size: cover;
   }
 .center{
     width: 40%;
 }
+
 .centerlogo img{
     
     width: 34rem;
@@ -39,28 +40,29 @@ body{
     border-color: transparent;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
     .centerlogo img{
     margin-left: 12rem;
-    width: 30rem;
-    height: 30rem;
+    width: 25rem;
+    height: 25rem;
     margin-right: 12rem;
     }
+   
+    
     
   }
   
   @media screen and (max-width: 438px) {
-    .home{
-      
-width: 100vh;
-  height: 100vh;
+ .home{
+  width:fit-content;
+  margin-left:-12rem;
   
-    }
+ }
     .centerlogo img{
-        margin-left: 1%;
-        width: 30rem;
-        height: 30rem;
-        margin-right: 1%;
+        
+        width: 20rem;
+        height: 20rem;
+        
         }
    
   }

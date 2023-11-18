@@ -4,10 +4,13 @@
   margin-top: 3rem;
   margin-right: 3rem;
   margin-left: 3rem;
+  width: 80%;
+ overflow: hidden;
+ 
 }
   
   .container-div{
-    width: 100%;
+    width: 97%;
     
     display: flex;
     justify-content: space-between;
@@ -18,28 +21,20 @@
   .container-div.mobile-i{
     margin-top: 0;
   }
-  .container-div b{
-    color: #fff;
-    font-family: 'Urban Jungle DEMO';
-    src: url('https://www.fontsaddict.com/fontface/urban-jungle-demo.ttf');
-  }
+ 
   
-  .container-div b a{
-  text-decoration: none;
-  color: white;
-  font-size: 1rem;
-  }
+  
   .hamburgerMenu {
    width: 4rem;
    height: 2.5rem;
    position: absolute;
-   right: 1rem;
+   right: -5rem;
    color:white;
    background-color: transparent;
    border: none;
    border-radius: none;
    font-size: 2rem;
-   top: 0;
+   top: 2;
    z-index: 100;
    padding: 0;
   }
@@ -48,8 +43,8 @@
 
   }
   .logo{
-
-    height: 30px;
+margin-top: 1rem;
+    height: 2rem;
   }
   
   .items {
@@ -63,7 +58,7 @@
     border: 1px solid rgba(255, 255, 2555, 0.16);
     backdrop-filter: blur(45px);
     /* opacity: 50%; */
-    right: 0;
+    right: -7rem;
     z-index: 99;
     border-bottom-left-radius: 4rem;
     transition: 0.3s ease-in;
@@ -114,7 +109,7 @@
     flex-shrink: 0;
     border-radius: 30px;
     background: var(--Purple-500, #9C27B0);
-
+    margin-top: 0.5rem;
     color: var(--White, #FFF);
     text-align: center;
     font-family: 'Poppins';
@@ -124,16 +119,21 @@
     line-height: normal;
     border-color: transparent;
   }
-  @media screen and (min-width: 825px) {
+  @media screen and (min-width: 950px) {
     .hamburgerMenu{
       display: none;
     }
     .items{
      display: none;
     }
+    .navigation{
+      margin-top: 1rem;
+      width: 100%;
+    }
+
   }
   
-  @media screen and (max-width: 825px) {
+  @media screen and (max-width: 950px) {
     .nav-content ul{
       display: none;
     }
@@ -144,9 +144,36 @@
     .items{
     width: 0;
     } 
+    
     .items.expanded{
-    width: 60vw;
+    width: 25vw;
+    
     }
+    
+  
+  }
+  @media screen and (max-width: 425px) {
+    .nav-content ul{
+      display: none;
+    }
+    .btn-sm{
+      display: none;
+    }
+     /* .hamburgerMenu{
+      right:-15rem;
+     } */
+    .items{
+    width: 0;
+    /* right: -18rem; */
+    } 
+    .btn-primary{
+      margin-top: 20rem;
+      border-radius: 0;
+    }
+    .items.expanded{
+    width: 55vw;
+    }
+    
   
   }
 
