@@ -9,7 +9,7 @@ export default function Sponsors() {
             <div className="sponsor">
                 SPONSORS
             </div>
-            <div className='container'>
+            <div className='containerr'>
             <div className="card">
             {/*  */}
                     <h4 className='spnsrname'><b>Title Sponsor</b></h4>
