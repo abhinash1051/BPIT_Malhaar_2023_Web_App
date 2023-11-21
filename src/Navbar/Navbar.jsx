@@ -19,8 +19,8 @@ const Navbar = () => {
         <Link to="/">
           <img className="logo" src={LOGO} />
         </Link>
-        <button
-          className={isExpanded ? "hamburgerMenu close" : "hamburgerMenu"}
+        <button 
+          className={isExpanded ? "hamburgerMenu close" : "hamburgerMenu"} id="border-none"
           onClick={toggleClass}
         >
           {isExpanded ? <RxCross1 /> : <GiHamburgerMenu />}
@@ -48,10 +48,20 @@ const Navbar = () => {
                 Event
               </Link>
             </li>
+
+            <li>
+              {" "}
+              <Link className="nav-link link" to="/event">
+                REGISTER
+              </Link>
+            </li>
+           
+
+           
+           
           </ul>
-          <button type="button" class="btn btn-primary">
-            Register
-          </button>
+          
+          
         </div>
         <div className="nav-content">
           <ul>
