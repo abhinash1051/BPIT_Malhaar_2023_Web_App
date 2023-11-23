@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+*{
+    overflow-x: hidden;
+}
 
 body{
     background-image: url("../assests/Background.png");
@@ -9,7 +12,7 @@ body{
     width: 40%;
 }
 
-.centerlogo img{
+.centerlogo img{ 
     
     width: 30rem;
     height: 30rem;
@@ -41,6 +44,39 @@ body{
     line-height: normal;
     border-color: transparent;
 }
+
+  .row{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    background: #202020;
+    width: 100vw;
+    height: 3rem;
+    position:relative;
+    bottom: 0;
+  }
+  .copyright-text p {
+  
+    font-size: 14px;
+    color: #878787;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+
+  .footer-menu p {
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 1rem;
+  }
+  .footer-menu p:hover a{
+    color: #ff5e14;
+  }
+  .footer-menu li a {
+    font-size: 14px;
+    color: #878787;
+  }
 
 @media screen and (max-width: 950px) {
     .centerlogo img{
