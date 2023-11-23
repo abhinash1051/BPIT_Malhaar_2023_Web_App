@@ -83,10 +83,14 @@
 }
 .nav-content li :hover{
   text-shadow: 1px 1px 1px #fff;
-  transform: scale(1.2);
-  font-size: 1.2em;
+  transform: scale(0.2);
+  font-size: 1em;
   transition: all 0.3s ease; 
 }
+#no-hover{
+  pointer-events: none;
+}
+
 .nav-content li a {
   list-style: none;
   color: #fff;
