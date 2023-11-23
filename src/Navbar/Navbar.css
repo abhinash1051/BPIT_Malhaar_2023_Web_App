@@ -81,6 +81,12 @@
   display: flex;
   gap: 5rem;
 }
+.nav-content li :hover{
+  text-shadow: 1px 1px 1px #fff;
+  transform: scale(1.2);
+  font-size: 1.2em;
+  transition: all 0.3s ease; 
+}
 .nav-content li a {
   list-style: none;
   color: #fff;
