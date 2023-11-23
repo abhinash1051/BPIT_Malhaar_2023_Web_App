@@ -31,18 +31,18 @@ const Navbar = () => {
             <li>
               <Link to="/about">About</Link>
             </li>
-            <li>
-              <Link className="nav-link" to="/sponsors">
+            <li id="sponsors">
+              <Link className="nav-link " to="/sponsors" id="sponsors" >
                 Sponsors
               </Link>{" "}
             </li>
-            <li>
+            <li id="team">
               {" "}
               <Link className="nav-link" to="/team">
                 Team
               </Link>
             </li>
-            <li>
+            <li  id="event">
               {" "}
               <Link className="nav-link" to="/event">
                 Event
@@ -65,19 +65,19 @@ const Navbar = () => {
         </div>
         <div className="nav-content">
           <ul>
-            <li>
+            <li id="links">
               <Link to="/event">EVENTS</Link>
             </li>
-            <li>
+            <li id="links">
               <Link to="/sponsors">SPONSORS</Link>
             </li>
-            <li>
+            <li id="links">
               <Link to="/team">TEAM</Link>
             </li>
-            <li>
+            <li id="links">
               <Link to="/about">ABOUT</Link>
             </li>
-            <li>
+            <li id="no-hover">
               <button type="button" class="btn btn-primary btn-sm">
                 Register
               </button>
