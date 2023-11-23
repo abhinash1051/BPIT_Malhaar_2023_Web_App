@@ -1,22 +1,48 @@
-import React from 'react'
-import './About.css'
+import React from "react";
+import "./About.css"
 
-function About() {
-    return (
-        <div className='about'>
-            <div className='about-container'>
-                <div className='about-header'>
-                    ABOUT US
+const About = () => {
+  return (
+    <>
+      <div className="bg">
+        <div className="container">
+          <div className="main-container">
+            <div>
+              <div className="header">
+                <h1>ABOUT US</h1>
+              </div>
+              <div className="main-content">
+                <p className="malhaar-text">
+                MALHAAR is more than a fest; it is a decade-long legacy of
+                        excellence at BPIT. This annual extravaganza isn't confined to our
+                        campus; it is a magnetic force that draws students from over 40
+                        colleges. Students find the platform to manifest their dreams,
+                        whether through technological wizardry, literary prowess,
+                        managerial acumen or rich and diverse cultural expressions.
+                        Even in the face of the daunting challenges posed by COVID-19,
+                        MALHAAR defied the odds, drawing a massive crowd of 30,000+
+                        attendees. The electrifying performance by the renowned
+                        "PARADOX" left the audience spellbound and yearning for more. As
+                        we embark on a new year, our hearts brim with anticipation, eager
+                        to invite blooming artists from the vast canvas of the industry.
+                        Over the years, luminaries like Olly Esse, Fazilpuria, Deep Money
+                        and Sukhe have graced our stage. It's a testament to our journey,
+                        from being known as "CORONA" to MALHAAR, where we continue
+                        to shine and inspire.
+                </p>
+
+                <div className="second-content">
+                  <div className="second-text">
+                    <img src="" alt="About Image" />
+                  </div>
                 </div>
-                <div className='about-content'>
-                    <div className='about-para'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id hendrerit sem, nec posuere ex. Ut ut porta purus. Phasellus rutrum tempor tempor. Vivamus luctus faucibus hendrerit. Nam mattis risus sem, ac tristique enim egestas id. Donec vitae ipsum libero. Nunc aliquet tellus vitae ipsum consequat, id luctus mauris congue. Donec efficitur, massa pellentesque ultrices tristique, tortor nunc commodo ipsum, eu pellentesque enim nibh nec enim. Aenean a nunc sed nibh ultrices lobortis. Maecenas mauris sapien, euismod quis luctus vitae, dictum quis nisi. Suspendisse tristique nunc nunc, eu maximus dolor commodo non. Duis accumsan diam ac ipsum fermentum, et feugiat ante euismod. Maecenas ultricies vestibulum libero eu placerat. Integer eget ultricies mi. Nulla tempor mi nec tellus viverra rhoncus. Vestibulum et tellus pulvinar, imperdiet ante in, dignissim quam. Maecenas ut vehicula ipsum, venenatis lobortis ex. Ut vel urna in felis lobortis suscipit.
-                    </div>
-                    <div className='about-image'></div>
-                </div>
+              </div>
             </div>
+          </div>
         </div>
-    )
-}
+      </div>
+    </>
+  );
+};
 
-export default About
+export default About;
