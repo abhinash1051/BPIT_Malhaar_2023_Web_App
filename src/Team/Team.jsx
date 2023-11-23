@@ -10,66 +10,176 @@ export default function Team() {
            THE DREAM TEAM
         </div>
         <div className="container">
-          <div className="profile">
+        <div className="profile">
             <div className='profile-image'><img className="image" src={doge} alt="team"></img></div>
-            <h2 className='NAME'>Doge</h2>
-            <h3 className='des'>designation</h3>
+            <div className='text'>
+              <h2>Doge</h2>
+              <h4 >designation</h4>
+            </div>
+        </div>
+        <div className="profile">
+          <div className='profile-image'><img className="image" src={doge} alt="team"></img></div>
+          <div className='text'>
+            <h2>Doge</h2>
+            <h4 >designation</h4>
           </div>
-          <div className="profile">
-            <div className='profile-image'><img className="image" src={doge} alt="team"></img></div>
-            <h2 className='NAME'>Doge</h2>
-            <h3 className='des'>designation</h3>
+        </div>
+        {/* tech divv */}
+        <div className="tech-content">
+        <h4>Tech Team</h4>
+        <div className="techteam">
+        
+          <div className="left">
+            <div className="img1">
+                <img src={doge} alt="img" />
+            </div>
+            <div className="text">
+                    <h4>Sher Billu</h4>
+                    <h6>Head</h6>
+            </div>
           </div>
-          <div className="profile">
-            <div className='profile-image'><img className="image" src={doge} alt="team"></img></div>
-            <h2 className='NAME'>Doge</h2>
-            <h3 className='des'>designation</h3>
+          <div className="right">
+             <div className="img2">
+             <img src={doge} alt="img" />
+             </div>
+             <div className="text">
+                    <h4>Sher Billu</h4>
+                    <h6>Head</h6>
+            </div>
           </div>
-          <div className="profile">
-            <div className='profile-image'><img className="image" src={doge} alt="team"></img></div>
-            <h2 className='NAME'>Doge</h2>
-            <h3 className='des'>designation</h3>
+        </div>
+        </div>
+        
+         {/* Graphics Team */}
+         <div className="tech-content">
+        <h4>Graphics Team</h4>
+        <div className="techteam">
+        
+          <div className="left">
+            <div className="img1">
+                <img src={doge} alt="img" />
+            </div>
+            <div className="text">
+                    <h4>Sher Billu</h4>
+                    <h6>Head</h6>
+            </div>
           </div>
-          <div className="profile">
-            <div className='profile-image'><img className="image" src={doge} alt="team"></img></div>
-            <h2 className='NAME'>Doge</h2>
-            <h3 className='des'>designation</h3>
+          <div className="right">
+             <div className="img2">
+             <img src={doge} alt="img" />
+             </div>
+             <div className="text">
+                    <h4>Sher Billu</h4>
+                    <h6>Head</h6>
+            </div>
           </div>
-          <div className="profile">
-            <div className='profile-image'><img className="image" src={doge} alt="team"></img></div>
-            <h2 className='NAME'>Doge</h2>
-            <h3 className='des'>designation</h3>
+        </div>
+        </div>
+        
+
+         {/* Content Team */}
+         <div className="tech-content">
+        <h4>Content Team</h4>
+        <div className="techteam">
+        
+          <div className="left">
+            <div className="img1">
+                <img src={doge} alt="img" />
+            </div>
+            <div className="text">
+                    <h4>Sher Billu</h4>
+                    <h6>Head</h6>
+            </div>
           </div>
-          <div className="profile">
-            <div className='profile-image'><img className="image" src={doge} alt="team"></img></div>
-            <h2 className='NAME'>Doge</h2>
-            <h3 className='des'>designation</h3>
+          <div className="right">
+             <div className="img2">
+             <img src={doge} alt="img" />
+             </div>
+             <div className="text">
+                    <h4>Sher Billu</h4>
+                    <h6>Head</h6>
+            </div>
           </div>
-          <div className="profile">
-            <div className='profile-image'><img className="image" src={doge} alt="team"></img></div>
-            <h2 className='NAME'>Doge</h2>
-            <h3 className='des'>designation</h3>
+        </div>
+        </div>
+
+         {/* Event team  */}
+         <div className="tech-content">
+        <h4>Event Team</h4>
+        <div className="techteam">
+        
+          <div className="left">
+            <div className="img1">
+                <img src={doge} alt="img" />
+            </div>
+            <div className="text">
+                    <h4>Sher Billu</h4>
+                    <h6>Head</h6>
+            </div>
           </div>
-          <div className="profile">
-            <div className='profile-image'><img className="image" src={doge} alt="team"></img></div>
-            <h2 className='NAME'>Doge</h2>
-            <h3 className='des'>designation</h3>
+          <div className="right">
+             <div className="img2">
+             <img src={doge} alt="img" />
+             </div>
+             <div className="text">
+                    <h4>Sher Billu</h4>
+                    <h6>Head</h6>
+            </div>
           </div>
-          <div className="profile">
-            <div className='profile-image'><img className="image" src={doge} alt="team"></img></div>
-            <h2 className='NAME'>Doge</h2>
-            <h3 className='des'>designation</h3>
+        </div>
+        </div>
+        {/* Sponsorship */}
+        <div className="tech-content">
+        <h4>Sponsorship Team</h4>
+        <div className="techteam">
+        
+          <div className="left">
+            <div className="img1">
+                <img src={doge} alt="img" />
+            </div>
+            <div className="text">
+                    <h4>Sher Billu</h4>
+                    <h6>Head</h6>
+            </div>
           </div>
-          <div className="profile">
-            <div className='profile-image'><img className="image" src={doge} alt="team"></img></div>
-            <h2 className='NAME'>Doge</h2>
-            <h3 className='des'>designation</h3>
+          <div className="right">
+             <div className="img2">
+             <img src={doge} alt="img" />
+             </div>
+             <div className="text">
+                    <h4>Sher Billu</h4>
+                    <h6>Head</h6>
+            </div>
           </div>
-          <div className="profile">
-            <div className='profile-image'><img className="image" src={doge} alt="team"></img></div>
-            <h2 className='NAME'>Doge</h2>
-            <h3 className='des'>designation</h3>
+        </div>
+        </div>
+
+        {/* Decor Team */}
+        <div className="tech-content">
+        <h4>Decor Team</h4>
+        <div className="techteam">
+        
+          <div className="left">
+            <div className="img1">
+                <img src={doge} alt="img" />
+            </div>
+            <div className="text">
+                    <h4>Sher Billu</h4>
+                    <h6>Head</h6>
+            </div>
           </div>
+          <div className="right">
+             <div className="img2">
+             <img src={doge} alt="img" />
+             </div>
+             <div className="text">
+                    <h4>Sher Billu</h4>
+                    <h6>Head</h6>
+            </div>
+          </div>
+        </div>
+        </div>
+          
         </div>
     </div>
     
