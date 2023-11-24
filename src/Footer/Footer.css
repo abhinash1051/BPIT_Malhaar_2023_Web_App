@@ -5,6 +5,7 @@
     flex-direction: row;
     overflow-x: hidden;
     background: #202020 !important;
+    background-color: #202020;
     width: 100vw;
     height: 3rem;
     position:relative;
