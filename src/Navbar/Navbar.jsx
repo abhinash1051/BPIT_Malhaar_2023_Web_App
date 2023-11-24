@@ -48,6 +48,12 @@ const Navbar = () => {
                 Event
               </Link>
             </li>
+            <li  id="event">
+              {" "}
+              <Link className="nav-link" to="/star">
+                Know the Star
+              </Link>
+            </li>
 
             <li>
               {" "}
@@ -77,8 +83,11 @@ const Navbar = () => {
             <li id="links">
               <Link to="/about">ABOUT</Link>
             </li>
+            <li id="links">
+              <Link to="/star">Know the Star</Link>
+            </li>
             <li id="no-hover">
-              <button type="button" class="btn btn-primary btn-sm">
+              <button type="button" className="btn btn-primary btn-sm">
                 Register
               </button>
             </li>

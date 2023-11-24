@@ -1,10 +1,12 @@
 import {React, useState} from 'react'
 import doge from '../assests/doge.png'
 import './Team.css'
+import Footer from '../Footer/Footer'
 
 export default function Team() {
     
   return (
+    <div>
     <div className='team'> 
         <div className="subteam">
            THE DREAM TEAM
@@ -182,7 +184,8 @@ export default function Team() {
           
         </div>
     </div>
-    
+    <Footer/>
+    </div>
   
   )
 }

@@ -3,8 +3,10 @@ import "./Sponsors.css"
 import pw from "../assests/pw.png"
 import unnamed from "../assests/unnamed.png"
 import dominos from "../assests/dominos.png"
+import Footer from '../Footer/Footer'
 export default function Sponsors() {
     return (
+        <div>
         <div className="sponsors">
             <div className="sponsor">
                 SPONSORS
@@ -53,6 +55,8 @@ export default function Sponsors() {
                 
             </div>
             </div>
+        </div>
+        <Footer/>
         </div>
 
     )

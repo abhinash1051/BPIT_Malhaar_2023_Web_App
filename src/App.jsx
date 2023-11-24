@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Team from './Team/Team';
 import Events from './Events/Events';
 import About from './About/About';
+import Credits from './Credits/Credits';
+import Star from './Star/Star';
 function App() {
   return (
     <div className="App">
@@ -17,8 +19,10 @@ function App() {
             <Route path='/team' element={<Team/>}></Route>
             <Route path='/event' element={<Events/>}></Route>
             <Route path='/about' element={<About/>}></Route>
+            <Route path='/credits' element={<Credits/>}></Route>
+            <Route path='/star' element={<Star/>}></Route>
             </Routes>
-          
+            
         </Router>
       
     </div>

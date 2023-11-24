@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.star-icons{
+    width:3rem;
+    height: 3rem;
+}
+.content-star{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.image-icons{
+    display: flex;
+    flex-direction: column;
+    margin-top:10rem;
+    
+}
+.starpage p{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 35rem;
+    margin-top: 10rem;
+    color: aliceblue;
+    margin-left: 3rem;
+}
+.starpage{
+    width: 100%;
+    height: 100vh;
+    position:absolute;
+
+}
+.star-bg{
+    width: 100%;
+    height: 100vh;
+    position:absolute;
+    margin-top: 0;
+    z-index: -1;
+
+    
+}
+.starpage h1{
+    color:white;
+    font-size: 3rem;
+    margin-left: -5px;
+    margin-top: 80px;
+/* font-family: 'Manrope', sans-serif; */
+font-family: 'Poller One', serif;
+/* font-family: 'Poppins', sans-serif; */
+}
