@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Star.css"
 import Akhil from "../assests/Akhil.jpg"
-import location from "../assests/location.png"
-import calender from "../assests/calender-icon.png"
-import clock from "../assests/clock.png"
+import location from "../assests/1.png"
+import calender from "../assests/3.png"
+import clock from "../assests/2.png"
 import page from "../assests/page1.jpg"
 import page2 from "../assests/page2.jpg"
 import solo from "../assests/solo.png"
@@ -32,14 +32,14 @@ export default function Star() {
             <img className="star-icons" src={calender}/>    1st December
             </div>
             <div>
-              <button className='pass-button'>Get Your Passes</button>
+              <button className='pass-button' src = " www.puneetstar.com">Get Your Passes</button>
             </div>
             </div>
             </div>
             <div className='main-content'>
-              <img className="side-pic" src = {page}/>
-            <h1>Akhil</h1>
-            <img className='side-pic' src = {page2}/>
+              {/* <img className="side-pic" src = {page}/> */}
+            <h1>   Akhil <br /> Sachdeva</h1>
+            {/* <img className='side-pic' src = {page2}/> */}
             </div>
             
     </div>

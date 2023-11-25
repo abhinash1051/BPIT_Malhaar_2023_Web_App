@@ -148,6 +148,7 @@
 .nav-content ul li :hover{
    text-decoration: underline;
    font-size: 1.3rem;
+  
 }
 /* #ham ul li a{
   justify-content: end;
@@ -190,7 +191,7 @@
 
   .items.expanded {
     width: 32vw;
-    height: 100%;
+    height: 120%;
   }
   .btn-primary {
     margin-top: 35px;
