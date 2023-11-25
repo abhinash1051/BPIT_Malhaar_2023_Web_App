@@ -12,7 +12,7 @@ export default function Footer() {
 <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right footer-menu">
 <p>
             <Link to ='/credits'>Credits     </Link>
-            <a href="#">Linktree</a></p>
+            <a href="https://linktr.ee/bpit_malhaar">Linktree</a></p>
            
       
    

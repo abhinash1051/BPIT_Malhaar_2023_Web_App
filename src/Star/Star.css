@@ -6,13 +6,15 @@
 }
 
 .star-icons{
-    width:3rem;
-    height: 3rem;
+    width:5rem;
+    height: 5rem;
+
 }
 .side-pic{
     height: 15rem;
     filter: brightness(50%);
     opacity: 0.7;
+    
 }
 .content-star{
     display: grid;
@@ -52,12 +54,16 @@
  
 }
 .pass-button{
-    color: aliceblue;
+    color:black;
     font-size: large;
     justify-content:center ;
-    border-color: aliceblue;
-    border-radius: 20%;
+    border-color: rgb(225, 231, 237);
+    border-radius: 15%;
     margin-top: 1rem;
+    background-color: aqua;
+    margin-left: 25px;
+    padding: 5px;
+    
 }
 .main-content{
     display: flex;
@@ -65,9 +71,11 @@
 }
 .starpage h1{
     color:white;
-    font-size: 15rem;
-    margin-top: 38px;
+    font-size: 4rem;
+    margin-top: -40px;
+    margin-left: 550px;
     bottom: 0;
+    
     
 font-family: "font-family: 'Poller One', serif;";
 
