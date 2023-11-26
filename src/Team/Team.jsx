@@ -1,7 +1,10 @@
 import {React, useState} from 'react'
+import punee from '../assests/punee.png'
+import misty from '../assests/misty.png'
 import doge from '../assests/doge.png'
 import './Team.css'
 import Footer from '../Footer/Footer'
+import { Form } from 'react-router-dom'
 
 export default function Team() {
     
@@ -13,17 +16,17 @@ export default function Team() {
         </div>
         <div className="container">
         <div className="profile">
-            <div className='profile-image'><img className="image" src={doge} alt="team"></img></div>
+            <div className='profile-image'><img className="image" src={misty} alt="team"></img></div>
             <div className='text'>
-              <h2>Doge</h2>
+          <h2>Puneet Superstar</h2>
               <h4 >designation</h4>
             </div>
         </div>
         <div className="profile">
-          <div className='profile-image'><img className="image" src={doge} alt="team"></img></div>
+          <div className='profile-image'><img className="image" src={punee} alt="team"></img></div>
           <div className='text'>
-            <h2>Doge</h2>
-            <h4 >designation</h4>
+        <h2>Lord Puneet</h2>
+            <h4>designation</h4>
           </div>
         </div>
         {/* tech divv */}
@@ -33,19 +36,19 @@ export default function Team() {
         
           <div className="left">
             <div className="img1">
-                <img src={doge} alt="img" />
+                <img src={punee} alt="img" />
             </div>
             <div className="text">
-                    <h4>Sher Billu</h4>
+                    <h4>Puneet Superstar</h4>
                     <h6>Head</h6>
             </div>
           </div>
           <div className="right">
              <div className="img2">
-             <img src={doge} alt="img" />
+             <img src={punee} alt="img" />
              </div>
              <div className="text">
-                    <h4>Sher Billu</h4>
+                    <h4>Puneet Superstar</h4>
                     <h6>Head</h6>
             </div>
           </div>
@@ -59,19 +62,19 @@ export default function Team() {
         
           <div className="left">
             <div className="img1">
-                <img src={doge} alt="img" />
+                <img src={punee} alt="img" />
             </div>
             <div className="text">
-                    <h4>Sher Billu</h4>
+                    <h4>Puneet Superstar</h4>
                     <h6>Head</h6>
             </div>
           </div>
           <div className="right">
              <div className="img2">
-             <img src={doge} alt="img" />
+             <img src={punee} alt="img" />
              </div>
              <div className="text">
-                    <h4>Sher Billu</h4>
+                    <h4>Puneet Superstar</h4>
                     <h6>Head</h6>
             </div>
           </div>
@@ -86,19 +89,19 @@ export default function Team() {
         
           <div className="left">
             <div className="img1">
-                <img src={doge} alt="img" />
+                <img src={punee} alt="img" />
             </div>
             <div className="text">
-                    <h4>Sher Billu</h4>
+                    <h4>Puneet Superstar</h4>
                     <h6>Head</h6>
             </div>
           </div>
           <div className="right">
              <div className="img2">
-             <img src={doge} alt="img" />
+             <img src={punee} alt="img" />
              </div>
              <div className="text">
-                    <h4>Sher Billu</h4>
+                    <h4>Puneet Su</h4>
                     <h6>Head</h6>
             </div>
           </div>
@@ -112,19 +115,19 @@ export default function Team() {
         
           <div className="left">
             <div className="img1">
-                <img src={doge} alt="img" />
+                <img src={punee} alt="img" />
             </div>
             <div className="text">
-                    <h4>Sher Billu</h4>
+                    <h4>Puneet Superstar</h4>
                     <h6>Head</h6>
             </div>
           </div>
           <div className="right">
              <div className="img2">
-             <img src={doge} alt="img" />
+             <img src={punee} alt="img" />
              </div>
              <div className="text">
-                    <h4>Sher Billu</h4>
+                    <h4>Puneet Superstarperstar</h4>
                     <h6>Head</h6>
             </div>
           </div>
@@ -137,19 +140,46 @@ export default function Team() {
         
           <div className="left">
             <div className="img1">
-                <img src={doge} alt="img" />
+                <img src={punee} alt="img" />
             </div>
             <div className="text">
-                    <h4>Sher Billu</h4>
+                    <h4>Puneet Superstar</h4>
                     <h6>Head</h6>
             </div>
           </div>
           <div className="right">
              <div className="img2">
-             <img src={doge} alt="img" />
+             <img src={punee} alt="img" />
              </div>
              <div className="text">
-                    <h4>Sher Billu</h4>
+                    <h4>Puneet Superstar</h4>
+                    <h6>Head</h6>
+            </div>
+          </div>
+        </div>
+        </div>
+
+
+        {/* production */}
+        <div className="tech-content">
+        <h4>Production Team</h4>
+        <div className="techteam">
+        
+          <div className="left">
+            <div className="img1">
+                <img src={punee} alt="img" />
+            </div>
+            <div className="text">
+                    <h4>Puneet Superstar</h4>
+                    <h6>Head</h6>
+            </div>
+          </div>
+          <div className="right">
+             <div className="img2">
+             <img src={punee} alt="img" />
+             </div>
+             <div className="text">
+                    <h4>Puneet Superstar</h4>
                     <h6>Head</h6>
             </div>
           </div>
@@ -163,19 +193,19 @@ export default function Team() {
         
           <div className="left">
             <div className="img1">
-                <img src={doge} alt="img" />
+                <img src={punee} alt="img" />
             </div>
             <div className="text">
-                    <h4>Sher Billu</h4>
+                    <h4>Puneet Superstar</h4>
                     <h6>Head</h6>
             </div>
           </div>
           <div className="right">
              <div className="img2">
-             <img src={doge} alt="img" />
+             <img src={punee} alt="img" />
              </div>
              <div className="text">
-                    <h4>Sher Billu</h4>
+                    <h4>Puneet Superstar</h4>
                     <h6>Head</h6>
             </div>
           </div>

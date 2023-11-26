@@ -13,9 +13,10 @@ body{
 }
 
 .centerlogo img{ 
-    
+    margin-top: -20px;
     width: 30rem;
     height: 30rem;
+    
     
 }
 .home{
@@ -28,7 +29,7 @@ body{
 .passbtn {
     
     display: flex;
-    height: 45px;
+    height: 55px;
     padding: 17px 37px 18px 36px;
     justify-content: center;
     align-items: center;
@@ -48,13 +49,12 @@ body{
 
 @media screen and (max-width: 950px) {
     .centerlogo img{
-    margin-left: 12rem;
+    margin-left: 10rem;
     width: 25rem;
     height: 25rem;
-    margin-right: 12rem;
-    }
-   
     
+    margin-right: 7rem;
+    }
     
   }
   
@@ -62,7 +62,8 @@ body{
  .home{
   width:fit-content;
   margin-top: 3rem;
-  margin-left:-9rem;
+  margin-left:-11rem;
+  font-size: 0.7rem;
   
  }
     .centerlogo img{
