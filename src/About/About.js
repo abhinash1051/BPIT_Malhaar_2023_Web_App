@@ -1,4 +1,5 @@
 import React from "react";
+import paradox from '../assests/paradox.png'
 import "./About.css"
 import Footer from "../Footer/Footer";
 
@@ -34,7 +35,7 @@ const About = () => {
 
                 <div className="second-content">
                   <div className="second-text">
-                    <img src="" alt="About Image" />
+                    <img src={ paradox } alt="About Image" />
                   </div>
                 </div>
               </div>

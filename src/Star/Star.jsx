@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Star.css"
-import Akhil from "../assests/Akhil.jpg"
+import Akhil from "../assests/Akhil.png"
 import location from "../assests/1.png"
 import calender from "../assests/3.png"
 import clock from "../assests/2.png"

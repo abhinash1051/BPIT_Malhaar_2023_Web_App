@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import bpit from "../assests/BPIT.png"
 import LOGO from "../assests/LOGO.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross1 } from "react-icons/rx";
@@ -18,6 +19,7 @@ const Navbar = () => {
       <div className={isExpanded ? "container-div  mobile-i" : "container-div"}>
         <Link to="/">
           <img className="logo" src={LOGO} />
+          {/* <img className="bpit" src={bpit} /> */}
         </Link>
         <button 
           className={isExpanded ? "hamburgerMenu close" : "hamburgerMenu"} id="border-none"
