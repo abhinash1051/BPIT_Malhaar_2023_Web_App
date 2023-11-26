@@ -16,10 +16,10 @@ export default function Team() {
         </div>
         <div className="container">
         <div className="profile">
-            <div className='profile-image'><img className="image" src={misty} alt="team"></img></div>
+            <div className='profile-image'><img className="image" src={punee} alt="team"></img></div>
             <div className='text'>
-          <h2>Puneet Superstar</h2>
-              <h4 >designation</h4>
+          <h2>Randheer</h2>
+              <h4 >President</h4>
             </div>
         </div>
         <div className="profile">
@@ -39,7 +39,7 @@ export default function Team() {
                 <img src={punee} alt="img" />
             </div>
             <div className="text">
-                    <h4>Puneet Superstar</h4>
+                    <h4>Cherish</h4>
                     <h6>Head</h6>
             </div>
           </div>
@@ -62,10 +62,10 @@ export default function Team() {
         
           <div className="left">
             <div className="img1">
-                <img src={punee} alt="img" />
+                <img src={misty} alt="img" />
             </div>
             <div className="text">
-                    <h4>Puneet Superstar</h4>
+                    <h4>Misty</h4>
                     <h6>Head</h6>
             </div>
           </div>
