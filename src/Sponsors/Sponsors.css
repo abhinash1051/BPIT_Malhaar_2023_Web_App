@@ -83,6 +83,7 @@
 @media only screen and (max-width: 768px) {
   .container {
       padding: 0 3.2rem;
+      
        grid-template-columns: repeat(2, 1fr);
   }
   .sponsor{
@@ -94,9 +95,9 @@
   }
 }
 @media only screen and (max-width: 480px) {
-  .containerr {
+  .container {
     grid-template-columns: repeat(2,1fr);
-    
+    height: 100%;
     justify-content: center;
     padding: 0 3.2rem;
     column-gap: normal;

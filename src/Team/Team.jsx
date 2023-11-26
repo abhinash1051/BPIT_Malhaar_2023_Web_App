@@ -18,15 +18,14 @@ export default function Team() {
         <div className="profile">
             <div className='profile-image'><img className="image" src={punee} alt="team"></img></div>
             <div className='text'>
-          <h2>Randheer</h2>
-              <h4 >President</h4>
+
             </div>
         </div>
         <div className="profile">
           <div className='profile-image'><img className="image" src={punee} alt="team"></img></div>
           <div className='text'>
         <h2>Lord Puneet</h2>
-            <h4>designation</h4>
+            <h4>(designation)</h4>
           </div>
         </div>
         {/* tech divv */}
