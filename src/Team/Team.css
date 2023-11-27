@@ -6,6 +6,21 @@ h5,
 h6 {
   overflow-y: hidden;
 }
+.first-card{
+  display: flex;
+  flex-wrap: wrap;
+}
+.profile{
+  margin: 2rem;
+}
+.second-cards{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+}
+.tech-content{
+  margin: 3%;
+}
 
 .team {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -143,23 +158,51 @@ h6 {
   column-gap: 5rem;
   row-gap: 2rem;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 570px) {
+  .first-card {
+    width: 100%;
+    margin-left: 4%;
+   
+}
+  .second-cards{
+   
+    margin-left: 0;
+  }
+
+
+  .techteam {
+    width: 100%;
+    height: 210px;
+    
+  }
+
   .profile {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+
+
+
+
+
+
+  /* .profile {
     height: 60%;
   }
   .profile-image img {
     border-radius: 70%;
     width: 50%;
     height: 100%;
-  }
-  .tech-content{
+  } */
+  /* .tech-content{
     display:flex;
     flex-wrap: wrap;
     
         
     margin-top: -110px;
     
-  }
+  } */
   
   .text {
     overflow-y: hidden;
@@ -169,24 +212,30 @@ h6 {
   }
 }
 
-@media only screen and (max-width: 480px) {
-  .container {
+@media only screen and (min-width: 900px) {
+
+.first-card{
+
+margin-left: 25%;
+}
+
+  /* .container {
     column-gap: 5px !important;
-  }
-  .team {
+  } */
+  /* .team {
     grid-template-columns: repeat(1, 1fr);
     width: 100vw;
-  }
+  } */
 
-  .profile {
+  /* .profile {
     margin-top: 10px;
     width: 130px;
     height: 70%;
     margin-left: 0.5rem !important;
     margin-right: 0.5rem !important;
     column-gap: 3rem;
-  }
-  .profile h2 {
+  } */
+  /* .profile h2 {
     font-size: 0.8rem;
   }
   .profile h4 {
@@ -199,7 +248,7 @@ h6 {
     padding: 1px;   
     
     
-  }
+  } */
 
 
 }
