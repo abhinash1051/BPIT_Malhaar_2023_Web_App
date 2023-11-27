@@ -3,6 +3,7 @@ import Background from '../assests/Background.png'
 import './Home.css'
 import Malhaar from '../assests/Malhaar.png'
 
+
 import Timer from '../Timer/Timer';
 import Footer from '../Footer/Footer';
 
