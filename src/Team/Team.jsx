@@ -14,11 +14,13 @@ export default function Team() {
         <div className="subteam">
            THE DREAM TEAM
         </div>
-        <div className="container">
+        <div className="cont">
+          <div className='first-card'>
         <div className="profile">
             <div className='profile-image'><img className="image" src={punee} alt="team"></img></div>
             <div className='text'>
-
+            <h2>Lord Puneet</h2>
+            <h4>(designation)</h4>
             </div>
         </div>
         <div className="profile">
@@ -28,7 +30,10 @@ export default function Team() {
             <h4>(designation)</h4>
           </div>
         </div>
+        </div>
         {/* tech divv */}
+
+        <div className='second-cards'>
         <div className="tech-content">
         <h4>Tech Team</h4>
         <div className="techteam">
@@ -210,7 +215,7 @@ export default function Team() {
           </div>
         </div>
         </div>
-          
+        </div>
         </div>
     </div>
     <Footer/>
