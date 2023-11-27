@@ -193,8 +193,14 @@
   }
 
   .items.expanded {
-    width: 32vw;
+    width: 35vw;
     height: 120%;
+   
+      position: fixed;
+      right: 0;
+      top: 0;
+      
+    
   }
   .btn-primary {
     margin-top: 35px;
