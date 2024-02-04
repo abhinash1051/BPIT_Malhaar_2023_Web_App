@@ -84,16 +84,19 @@
   display: flex;
   gap: 2rem;
 }
-.nav-content li :hover{
+/* .nav-content li :hover{
   text-shadow: 1px 1px 1px #fff;
   transform: scale(0.2);
   font-size: 1em;
   transition: all 0.3s ease; 
   transition: linear;
   border-bottom: 5px transparent;
-}
+} */
 #no-hover{
-  pointer-events: none;
+  text-decoration: none;
+}
+#no-hover:hover{
+  text-decoration: none !important;
 }
 .nav-content{
   height: 4rem;
@@ -147,7 +150,7 @@
   gap: 3rem;
 }
 
-.nav-content ul li :hover{
+#links :hover{
    text-decoration: underline;
    font-size: 1.3rem;
   
@@ -188,13 +191,13 @@
   }
 
   .items {
-    width: 0;
+    
     
   }
 
   .items.expanded {
     width: 35vw;
-    height: 120%;
+    height: 100%;
    
       position: fixed;
       right: 0;
@@ -211,6 +214,7 @@
 @media screen and (max-width: 430px) {
   .nav-content ul {
     display: none;
+    
   }
   .btn-sm {
     display: none;

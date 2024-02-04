@@ -56,7 +56,6 @@ const Navbar = () => {
                 Know the Star
               </Link>
             </li>
-
             <li>
               {" "}
               <Link className="nav-link link" to="/event">
@@ -89,9 +88,11 @@ const Navbar = () => {
               <Link to="/star">Know the Star</Link>
             </li>
             <li id="no-hover">
+            <a href = "https://insider.in/-akhil-sachdeva-live-at-malhaar-23-nov30-2023/event" target="_blank">
               <button type="button" className="btn btn-primary btn-sm">
                 Register
               </button>
+                </a>
             </li>
           </ul>
         </div>

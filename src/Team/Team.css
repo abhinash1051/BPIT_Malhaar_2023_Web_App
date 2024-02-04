@@ -34,18 +34,20 @@ h6 {
 }
 /* tech team */
 .techteam {
-  width: 485px;
-  height: 210px;
+  width: 450px;
+  height: 230px;
   border-radius: 51px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(138, 138, 138, 0.14);
   backdrop-filter: blur(20px);
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
-.tech-content > h4 {
+.tech-content h4 {
   color: white;
   text-align: center;
+  font-size: 1rem;
+  margin-left: -10px;
 }
 .img1 {
   width: 200px;
@@ -58,6 +60,7 @@ h6 {
 .text {
   color: white;
   text-align: center;
+  padding: 23px;
 }
 .img1 img {
   height: 100px;
@@ -178,7 +181,9 @@ h6 {
 
   .profile {
     width: 100%;
+
     margin-bottom: 10px;
+    
   }
 
 

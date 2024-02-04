@@ -24,23 +24,27 @@ export default function Star() {
             <img className="star-icons" src={calender}/>    1st December
             </div>
             <div>
-              <button className='pass-button' src = " www.puneetstar.com">Get Your Passes</button>
+              <button className='pass-button' src = "https://insider.in/-akhil-sachdeva-live-at-malhaar-23-nov30-2023/event">Get Your Passes</button>
             </div>
             </div>
             </div>
-        <p>Akhil Sachdeva, the acclaimed Indian musician, singer, and composer, gained recognition as the lead vocalist of the 
+        {/* <p>Akhil Sachdeva, the acclaimed Indian musician, singer, and composer, gained recognition as the lead vocalist of the 
             Delhi-based band Nasha in 2009. His Bollywood journey took flight when his song "Humsafar" was featured in the film 
             "Badrinath Ki Dulhania." Graduating with Honours in Economics from Delhi College of Arts & Commerce, University of Delhi,
              Sachdeva's versatile talent shines through in his globally acclaimed track "Tera Ban Jaunga" from the film "Kabir Singh." 
              Managed by Mourjo Chatterjee of On Stage Talents, he continues to captivate audiences with his emotive vocals 
              and impactful compositions, solidifying his position in the realm of music.</p>
-            
+             */}
         
             <div className='main-content'>
               {/* <img className="side-pic" src = {page}/> */}
             <h1>   Akhil <br /> Sachdeva</h1>
             {/* <img className='side-pic' src = {page2}/> */}
             </div>
+
+             <div class="copyright-text">
+        <p>Copyright &copy; 2023, All Right Reserved <span>Malhaar</span></p>
+    </div> 
             
     </div>
   )

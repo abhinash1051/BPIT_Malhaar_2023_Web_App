@@ -102,11 +102,13 @@
     padding: 0 3.2rem;
     column-gap: normal;
     
+    
   }
   .card{
     grid-template-columns: repeat(2,1fr);
-    width: 8rem;
-    margin: 6px;
+    width: 10rem;
+  
+    margin-left: 70px;
   }
   .sponsor-image{
     height:6rem;

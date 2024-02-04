@@ -8,8 +8,11 @@
 }
 
 .star-icons {
-    width: 5rem;
-    height: 5rem;
+    margin-top: -30px;
+    width: 8rem;
+    height: 8rem;
+    
+    
 }
 
 .side-pic {
@@ -21,19 +24,20 @@
 .content-star {
     display: grid;
     grid-template-columns: auto auto auto;
+    overflow:hidden;
 }
 
 .image-icon {
     display: flex;
     flex-direction: column;
-    margin-top: 10rem;
+    
     
     color: aliceblue;
     font-size: 2rem;
     font-weight: 900;
     justify-content: center;
     margin-left: 3rem;
-    padding-top: 5rem;
+    padding-top: 2rem;
 }
 
 .starpage p {
@@ -57,52 +61,62 @@
     width: 100%;
     position: absolute;
     z-index: -1;
+    overflow: hidden;
+    height:100vh;
 }
 
 .pass-button {
-    color: black;
+    color:white;
     font-size: large;
     justify-content: center;
-    border-color: rgb(225, 231, 237);
-    border-radius: 15%;
+    border-color: rgb(144, 28, 28);
+    border-radius: 30%;
     margin-top: 1rem;
-    background-color: aqua;
+    background-color: rgb(13, 10, 21);
     margin-left: 25px;
-    padding: 5px;
+    padding: 10px;
+    
 }
 
-.main-content {
-    display: flex;
-    margin-top: 1rem;
-}
+
 
 .starpage h1 {
     color: white;
-    font-size: 4rem;
-   margin-top: 5rem;
-    margin-left: 550px;
-    bottom: 0;
+    font-size: 5.5rem;
+ 
+    margin-left: 500px;
+    z-index:1000;
+    
+
     font-family: "font-family: 'Poller One', serif;";
 }
 
+/* Media Query for mobile screens */
 /* Media Query for mobile screens */
 @media only screen and (max-width: 768px) {
     .starpage h1 {
         font-size: large;
         display: flex;
         flex-direction: row;
-        margin-left: 10px; /* Adjust as needed for better alignment */
+        top: 0; 
+        margin-left: 10px; 
+        position: absolute; 
+        font-weight: 1200;
+        font-size: 2rem;
+        flex-direction: column; 
+        align-items: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     .star-icons {
         width: 3rem; /* Adjust the size for smaller screens */
         height: 3rem; /* Adjust the size for smaller screens */
-       
     }
 
     .content-star {
         grid-template-columns: auto; /* Stack the content in a single column */
-        margin-left: 10px; /* Adjust the margin as needed */
+        margin-left: 10px; 
+        overflow: hidden;
     }
 
     .image-icon {
@@ -112,25 +126,27 @@
     }
 
     .starpage p {
-        margin-top :9rem;
+        margin-top: 9rem;
         grid-template-columns: auto; /* Stack the content in a single column */
         width: auto; /* Remove fixed width */
         margin: 10px; /* Adjust the margin as needed */
-        text-align: center; 
-        visibility:hidden ;/* Center the text */
+        text-align: center;
+        visibility: hidden; /* Center the text */
     }
-.starpage{
-    /* backdrop-filter: blur(35px);
--webkit-backdrop-filter: blur(35px); */
-overflow: hidden;
-background-image: url(../assests/aku.jpg);
-background-size: cover;
-}
-    .main-content {
-        margin-top: -73rem;
-        font-weight: 800;
-        font-size: 1rem;
-        flex-direction: column; /* Stack the content in a single column */
-        align-items: center; /* Center the items */
+
+    .starpage {
+        overflow: hidden;
+        background-image: url(../assests/aku.jpg);
+        background-size: cover;
     }
+    .copyright-text p {
+  
+        font-size: 1.5rem;
+        margin-top: 30px;
+        color: #878787;
+        
+        margin-left: 1rem;
+    
+      }
 }
+

@@ -14,12 +14,11 @@ const About = () => {
                 <h1>ABOUT US</h1>
               </div>
               <div className="main-content">
-                <p className="malhaar-text">
-                MALHAAR is more than a fest; it is a decade-long legacy of
+     <p className="malhaar-text">
+     MALHAAR is more than a fest; it is a decade-long legacy of
                         excellence at BPIT. This annual extravaganza isn't confined to our
-                        campus; it is a magnetic force that draws students from over 40
-                        colleges. Students find the platform to manifest their dreams,
-                        whether through technological wizardry, literary prowess,
+                        campus; it is a magnetic force that 
+                        draws students from over 4 colleges.Students find the platform to manifest their dreams whether through technological wizardry, literary prowess,
                         managerial acumen or rich and diverse cultural expressions.
                         Even in the face of the daunting challenges posed by COVID-19,
                         MALHAAR defied the odds, drawing a massive crowd of 30,000+

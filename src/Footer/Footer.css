@@ -2,34 +2,29 @@
 .row{
     justify-content: center;
     display: flex;
+    
     flex-direction: row;
     overflow-x: hidden;
-    background: #202020 !important;
-    background-color: #202020;
-    width: 100vw;
+    /* background: #202020 !important;
+    background-color: #202020; */
+  
     height: 3rem;
     position:relative;
     bottom: 0;
   }
-  .copyright-text p {
   
-    font-size: 14px;
-    color: #878787;
-    margin-top: 1rem;
-    margin-left: 1rem;
-
+  .media p{
+    margin-left: 850px;
+    font-size: 3.5rem;
+    /* width: 490px; */
+    
+    }
+   .media .credits{
+    margin-left: 900px;
+    
+    font-size: 2.5rem;
+    margin-top: -90px;
   }
-
-  .footer-menu p {
-    display: inline-block;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    margin-top: 1rem;
-  }
-  .footer-menu p:hover a{
-    color: #ff5e14;
-  }
-  .footer-menu li a {
-    font-size: 14px;
-    color: #878787;
-  }
+ 
+  
+  
